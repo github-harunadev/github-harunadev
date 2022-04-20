@@ -19,7 +19,7 @@ There's nothing much you (as a client) can do to fix the problem).
 
 ## The server is not responding (server fault)
 
-rikoplayIdentifier's challenge service runs on a very small and weak server. The mighty, Samsung Galaxy S9 (yeah, the smartphpone!), is running Ubuntu 18.04.
+rikoplayIdentifier's challenge service runs on a very small and weak server. The mighty, Samsung Galaxy S9 (yeah, the smartphone!), is running Ubuntu 18.04.
 **Try to open https://haruna.dev/ping on your favorite web browser. If you get a prompt of "pong", there're no critical problem in the server.
 If there's a connection error, it might be the server fault.**
 
