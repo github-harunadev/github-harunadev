@@ -37,7 +37,7 @@ If other player is moving, but you're having an Invalid URL error, and server co
 
 어떠한 이유가 문제를 발생하는지 먼저 일아볼 필요가 있습니다:
 
-- 월드 제작자가 질못된 Token URL을 월드에 설치함
+- 월드 제작자가 잘못된 Token URL을 월드에 설치함
 - 서버가 응답하지 않음 (서버 탓)
 - 서버가 응답하지 않음 (클라이언트 탓)
 
