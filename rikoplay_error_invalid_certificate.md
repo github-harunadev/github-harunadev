@@ -8,7 +8,6 @@ There're many ways to analyze the problem:
 - World creator has installed the corrupt Token URL to the system
 - The server is not responding (server falut)
 - The server is not responding (client fault)
-- The server certificate is not installed on the PC
 
 ## World creator has installed the corrupted Token URL to the system
 
@@ -31,18 +30,8 @@ If other player is moving, but you're having an Invalid URL error, and server co
 
 **Try getting a working VPN that has a server on other countries (Especially South Korea would be great to try).**
 
-## The server certificate is not installed on your PC
 
-If any of the solution above does not fix the error, you may have to guess that this is the main reason.
-(and you will have to, because some of my closed beta testers encountered this error)
-This error occurs when there's no Let's Encrypt certificate found in the PC, making not able to get any result from the web server. 
-This is a fault of Windows, not providing any client certificates of Let's Encrypt to your PC. (haha microsoft)
 
-**This error is not critical, but this situation is critical because your PC is missing some of the necessary client certificates.**
-
-In order to solve this problem, **please follow the link below from VRChat to install Let's Encrypt client certificate in your PC.**
-
-https://help.vrchat.com/hc/en-us/articles/4408619131795-Video-Players-failing-with-CERTIFICATE-VERIFY-FAILED-in-output-logs
 
 # rikoplayIdentifier 에러 (Invalid URL 오류)
 
@@ -51,7 +40,6 @@ https://help.vrchat.com/hc/en-us/articles/4408619131795-Video-Players-failing-wi
 - 월드 제작자가 질못된 Token URL을 월드에 설치함
 - 서버가 응답하지 않음 (서버 탓)
 - 서버가 응답하지 않음 (클라이언트 탓)
-- 컴퓨터에 인증서가 설치되어있지 않음
 
 ## 월드 제작자가 잘못된 Token URL을 월드에 설치함
 
@@ -74,15 +62,3 @@ rikoplayIdentifier의 챌린지 서비스는 삼성 갤럭시 S9 스마트폰 (U
 
 **한국에 서버를 둔 VPN 서비스를 이용해보세요.**
 
-## 컴퓨터에 인증서가 설치되어있지 않음
-
-어떠한 해결 방법도 문제를 해결하지 못했다면, 이 이유가 최종 이유일것입니다.
-(클로즈 베타 테스터분들중 몆몆분들이 이 문제를 겪었으니 그럴 수 있습니다)
-Let's Encrypt에서 제공하는 클라이언트 인증서가 컴퓨터에 설치되어있지 않아 생기는 문제입니다.
-윈도우가 이 인증서를 기본으로 포함하지 않았거나 업데이트에 포함하지 않아서 생기기도 합니다.
-
-**이 에러는 중요하지 않지만 이 문제 자체는 중요합니다. 컴퓨터에 설치되어있어야할 중요 인증서중 몆몆이 빠졌기 때문이죠.**
-
-이 문제를 해결하기 위해, **아래 링크에서 Let's Encrypt에서 제공하는 인증서를 설치하고, 컴퓨터를 다시 시작하세요.**
-
-https://help.vrchat.com/hc/en-us/articles/4408619131795-Video-Players-failing-with-CERTIFICATE-VERIFY-FAILED-in-output-logs
